@@ -44,8 +44,9 @@ namespace RuletaRusa
             //Aunque no lo haya comentado, recuerda usar una clase ejecutable para probarlo.
 
 
-            Juego juego = new Juego(4);
+            Juego juego = new Juego(Metodos.numeroAleatorio(1,7));
 
+            Console.WriteLine("Participantes del juego: " +juego.Jugadores);
             juego.ronda();
             if (juego.finJuego())
             {

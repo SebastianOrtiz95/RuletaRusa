@@ -74,5 +74,9 @@ namespace RuletaRusa
                 jugadores[i] = new Jugador(i+1);
             }
         }
+        public int Jugadores
+        {
+            get { return jugadores.Length; }
+        }
     }
 }
